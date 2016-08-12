@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的简易计算器</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="calculator">
+    <input class="screen" type="text" readonly="readonly">
+    <div class="bt">
+        <input type="button" value="1" onclick="inputKey(this.value)">
+        <input type="button" value="2" onclick="inputKey(this.value)">
+        <input type="button" value="3" onclick="inputKey(this.value)">
+        <input type="button" value="4" onclick="inputKey(this.value)">
+        <input type="button" value="清空" class="btn" onclick="clearFunction()">
+        <input type="button" value="5" onclick="inputKey(this.value)">
+        <input type="button" value="6" onclick="inputKey(this.value)">
+        <input type="button" value="7" onclick="inputKey(this.value)">
+        <input type="button" value="8" onclick="inputKey(this.value)">
+        <input type="button" value="根号" class="btn" onclick="sqrt()">
+        <input type="button" value="9" onclick="inputKey(this.value)">
+        <input type="button" value="0" onclick="inputKey(this.value)">
+        <input type="button" value="." onclick="inputKey(this.value)">
+        <input type="button" value="del" onclick="del()">
+        <input type="button" value="%" onclick="operatFun('%')">
+        <input type="button" value="+" onclick="operatFun('+')">
+        <input type="button" value="-" onclick="operatFun('-')">
+        <input type="button" value="*" onclick="operatFun('*')">
+        <input type="button" value="/" onclick="operatFun('/')">
+        <input type="button" value="=" onclick="result()">
+    </div>
+</div>
+<script src="js/js.js"></script>
+</body>
+</html>
