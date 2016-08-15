@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4, ul, li, dl, dt, dd, ol, form, table, tr, td, span, label, input, select, option, a, img, i, em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    font-family: "宋体";
+    margin: 0 auto;
+    font-size: 0.26rem; /*body中默认使用做多的字体大小*/
+}
+
+.clearfix { *zoom: 1;}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.calculator{width:420px;height:400px;margin:0 auto;padding-top:25px;margin-top:50px;}
+.screen{width:354px;height:64px;margin:0 auto;background: #cd2727;border-radius:10px; margin-bottom: 15px;font-size: 30px;color: #ffffff;text-align: right;padding-right:10px;}
+.bt{padding-left: 5px;}
+.bt input{float:left;margin:0 20px 20px 0;width:53px;height:52px;background: #8d7c7c;border-radius: 8px;font-size:30px;  color: #ffffff;}
+.bt .btn{font-size:18px;}
