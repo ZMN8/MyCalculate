@@ -98,3 +98,4 @@ function sqrt(){    //根号的问题
     }
     console.log("sqrt: "+beforeNum,afterNum);
 }
+//end
